@@ -32,8 +32,8 @@ Steam Trends is a full-stack web application that allows users to view real-time
 
 ---
 
-📷 Screenshots
+📄 Pages
 
-https://media.discordapp.net/attachments/758785513971908612/1357482070292828290/image.png?ex=67f05d32&is=67ef0bb2&hm=9e1ba8c98270522161e8aa31b816a05412c962b9cefcf449784b01dd2aaa1554&=&format=webp&quality=lossless
-
+- **Home Games Page**
 - **Trending Games Page**
+- **Compare Games Page**
