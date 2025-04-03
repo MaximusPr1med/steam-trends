@@ -1,0 +1,8 @@
+com\steamtrends\AppConfig.class
+com\steamtrends\Application.class
+com\steamtrends\SteamDataFetcher.class
+com\steamtrends\controller\GameController.class
+com\steamtrends\model\Game.class
+com\steamtrends\repository\GameRepository.class
+com\steamtrends\repository\GameHistoryRepository.class
+com\steamtrends\model\GameHistory.class

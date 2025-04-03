@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Compare Games - Steam Trends</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="navbar">
+        <div class="logo">
+            <img src="images/steam-logo.png" alt="Steam Trends" />
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="trending.html">Trending</a></li>
+            <li><a href="compare.html" class="active">Compare</a></li>
+        </ul>
+    </div>
+
+    <div class="container">
+        <h1>Compare Games By Current Players</h1>
+
+        <div class="table-container">
+            <div class="compare-controls">
+                <div class="game-select-row">
+                    <div id="gameSelectContainer" class="game-select-pair"></div>
+                    <button id="addGameBtn">➕ Add Game</button>
+                </div>
+
+                <button id="compareBtn">🔍 Compare</button>
+
+                <div class="timeframe-buttons">
+                    <button data-range="1h">1 Hour</button>
+                    <button data-range="24h" class="active">24 Hours</button>
+                    <button data-range="48h">48 Hours</button>
+                    <button data-range="week">1 Week</button>
+                    <button data-range="month">1 Month</button>
+                    <button data-range="all">All</button>
+                </div>
+            </div>
+
+            <div class="chart-container">
+                <canvas id="compareChart"></canvas>
+            </div>
+        </div>
+    </div>
+
+    <script src="compare.js"></script>
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trending Games</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+
+    <div class="navbar">
+        <div class="logo">
+            <img src="images/steam-logo.png" alt="Steam Trends">
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="trending.html">Trending</a></li>
+            <li><a href="compare.html">Compare</a></li>
+        </ul>
+    </div>
+    
+    <div class="container">
+        <h1>All Trending Games</h1>
+        <div class="table-container">
+            <table>
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Game Title</th>
+                        <th>Current Players</th>
+                        <th>Peak Players</th>
+                        <th>Hours Played</th>
+                        <th>Player Trend</th>
+                    </tr>
+                </thead>
+                <tbody id="allGamesData">
+                    <!-- All games will be inserted here -->
+                </tbody>
+            </table>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
