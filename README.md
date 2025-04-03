@@ -32,8 +32,47 @@ Steam Trends is a full-stack web application that allows users to view real-time
 
 ---
 
+Backend Setup
+
+**Java 20, Maven, and MySQL required**
+
+- Create a database:
+- CREATE DATABASE steam_trends;
+
+- Update your DB credentials in:
+- src/main/resources/application.properties
+
+- Run the app:
+- mvn clean install
+- java -jar target/steam-trends.jar
+
+--- 
+
+Frontend
+
+- Open index.html
+
 📄 Pages
 
 - **Home Games Page**
 - **Trending Games Page**
 - **Compare Games Page**
+
+---
+
+📊 API Endpoints
+
+Endpoint	                        Method	      Description
+/api/games/top50	                GET	          Top 50 games by current players
+/api/games/details?gameId=XXX	    GET	          Game details for given ID
+/api/games/history	              GET	          Historical data for a game
+└ ?gameId=XXX&timeRange=24h		                  Valid ranges: 1h, 24h, 48h, week, month, all
+
+---
+
+💡 Features That Make This App Stand Out
+
+- 🧩 Interactive multi-select dropdowns
+- 🎨 Custom line colors per game
+- 🕶️ Smooth animations with Chart.js
+- ➕ Add up to 5 games with one click
