@@ -62,11 +62,12 @@ Frontend
 
 📊 API Endpoints
 
-Endpoint	                        Method	      Description
-/api/games/top50	                GET	          Top 50 games by current players
-/api/games/details?gameId=XXX	    GET	          Game details for given ID
-/api/games/history	              GET	          Historical data for a game
-└ ?gameId=XXX&timeRange=24h		                  Valid ranges: 1h, 24h, 48h, week, month, all
+Endpoint	                        
+
+- /api/games/top50	                GET	          Top 50 games by current players
+- /api/games/details?gameId=XXX	    GET	          Game details for given ID
+- /api/games/history	              GET	          Historical data for a game
+- └ ?gameId=XXX&timeRange=24h		                  Valid ranges: 1h, 24h, 48h, week, month, all
 
 ---
 
